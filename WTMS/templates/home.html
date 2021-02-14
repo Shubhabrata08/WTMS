@@ -1,0 +1,40 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+            Welcome to Walike Talkie Management system |
+        </title>
+        <link rel="stylesheet" href="{% static "./css/homestyle.css" %}">
+    </head>
+    <body>
+    	<div class="head">
+            <div class="headtext">
+                | Welcome to Walike Talkie Management system |
+            </div>
+        </div>
+        <div class="content">
+            <div class="buttons">
+                <div class="row1">
+                    
+                        <div class="button issue" id="b1">
+                            Issue Walkie Talkie
+                        </div>
+                    
+                    <div class="button return" id="b2">
+                        Return Walkie Talkie 
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="button managelp" id="b3">
+                        Manage LP Database
+                    </div>
+                    <div class="button managewt" id="b4">
+                        Manage Walkie Talkie
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot"></div>
+        <script src="{% static "js/index.js" %}"></script>
+    </body>
+</html>
